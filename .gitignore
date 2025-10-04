@@ -25,6 +25,7 @@ venv/
 ENV/
 env/
 .env
+.venv/
 
 # IDE
 .idea/
@@ -45,3 +46,4 @@ logs/
 
 # Dependencies
 node_modules/ 
+.venv/pyvenv.cfg
