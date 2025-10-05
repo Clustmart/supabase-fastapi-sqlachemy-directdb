@@ -1,0 +1,9 @@
+services:
+  fastapi_app:
+    # Build the Docker image from the Dockerfile in the current directory (.)
+    build: .
+    container_name: gpt2db
+    restart: unless-stopped
+
+    ports:
+      - "127.0.0.1:8001:8000"
